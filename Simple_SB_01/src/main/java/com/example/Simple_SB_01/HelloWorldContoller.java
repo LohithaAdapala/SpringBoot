@@ -22,4 +22,9 @@ public class HelloWorldContoller{
         ans = dateFormatter(after);
         return ans;
     }
+    @GetMapping("/name")
+    public String name(){
+        return "Lohitha is a good girl!";
+
+    }
 }
